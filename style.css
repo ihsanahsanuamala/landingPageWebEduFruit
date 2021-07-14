@@ -1,13 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
 *{
     text-decoration: none;
     margin: 0px;
     padding: 0px;
+    font-family: 'Poppins', sans-serif;
 }
 
 body{
     margin: 0px;
     padding: 0px;
-    font-family: 'Open Sans', sans-serif;
 }
 
 .wrapper{
@@ -20,8 +22,8 @@ body{
     font-size: 40px;
     font-weight: bold;
     float: left;
-    font-family: 'popppins';
     color: #fff;
+    margin-top: -7px;
     margin-left: -100px;
 }
 
@@ -35,7 +37,7 @@ nav{
     display: flex;
     line-height: 80px;
     position: sticky;
-    /* position: -webkit-sticky; */
+    position: -webkit-sticky;
     top: 0;
     background: #2C2E43;
 }
@@ -56,6 +58,7 @@ nav ul li a{
     color: #fff;
     font-weight: bold;
     text-align: center;
+    font-size: 18px;
     padding: 0px 16px 0px 16px;
     text-decoration: none;
 }
@@ -73,25 +76,49 @@ section{
 }
 
 .kolom{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 125px -50px 50px 50px;
 }
 
-.kolom .deskripsi{
-    font-size: 20px;
-    font-weight: bold;
-    font-family: 'comic sans ms';
-    color: #2C2E43;
+
+.image-home{
+    /* background: #2C2E43; */
+    /* padding-top: 10px; */
+    margin: 25px 0px 0px 0px;
+    max-width: 400px;
+    max-height: 400px;
 }
 
 h2{
-    font-family: 'comic sans ms';
-    font-weight: 800;
+    /* font-weight: 800; */
     font-size: 45px;
+    margin-left: -1px;
     margin-bottom: 20px;
     color: #2C2E43;
     width: 100%;
-    line-height: 50px;
+    line-height: 50px; 
 }
+
+p{
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    font-weight: 600;
+}
+
+a.tbl-pesan{
+    background: #2C2E43;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #fff;
+    cursor: pointer;    
+    font-weight: bold;
+}
+
+a.tbl-pesan:hover{
+    background: #2a8653;
+    
+}
+
+
 
 
