@@ -14,7 +14,7 @@ body{
 }
 
 .wrapper{
-    width: 1100px;
+    width:1100px;
     margin: auto;
     position: relative;
 }
@@ -151,8 +151,8 @@ p{
     cursor: pointer;
     margin:30px;
     margin-top: 150px;
+}
 
-  }
   .card-image {
     grid-area: image;
     background: url("img/banana.png");
@@ -209,16 +209,6 @@ p{
 /* Section Partner */
 
  
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
-    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-}
 
 .heading-container {
   text-align: center;
@@ -226,25 +216,6 @@ body {
 
 .heading {
   font-weight: 600;
-}
-
-.credit {
-  margin: 10px 0px;
-  color: #888888;
-  font-size: 25px;
-  transition: all 0.5s;
-}
-
-.credit a {
-  color: inherit;
-}
-
-a,
-.card__exit,
-.card__icon {
-  position: relative;
-  text-decoration: none;
-  color: rgba(255, 255, 255, 0.9);
 }
 
 a::after {
@@ -276,7 +247,7 @@ a:hover::after {
 .card-partner {
   margin: 20px;
   padding: 20px;
-  width: 500px;
+  width: 200px;
   min-height: 200px;
   display: grid;
   grid-template-rows: 20px 50px 1fr 50px;
@@ -295,40 +266,53 @@ a:hover::after {
   justify-self: end;
 }
 
-/* .card__icon {
+.card__icon {
   grid-row: 2/3;
   font-size: 30px;
-} */
-
-.card__title {
-  grid-row: 3/4;
-  font-weight: 800;
-  color: #2C2E43;
 }
 
-.card__apply {
+.card__title {
+  grid-row: 4/4;
+  font-weight: 800;
+  color: #fff;
+  font-size:18px;
+  border-radius: 18px;
+}
+
+.card__apply  {
   grid-row: 4/5;
   align-self: center;
 }
 
+.card__apply.a  {
+  color: #fff;
+
+}
+
 .card-1 {
-  background: #fff;
+  background: url("img/toko-buah.png");
+  background-size: cover;
+
 }
 
 .card-2 {
-  background: #fff;
+  background: url("img/toko-buah.png");
+  background-size: cover;
 }
 
 .card-3 {
-  background: #fff;
+  background: url("img/toko-buah.png");
+  background-size: cover;;
 }
 
 .card-4 {
-  background: #fff;
+  background: url("img/toko-buah.png");
+  background-size: cover;
 }
 
 .card-5 {
-  background: #fff;
+  background: url("img/toko-buah.png");
+  background-size: cover;
 }
 
 @media (max-width: 1600px) {
