@@ -281,6 +281,10 @@ a:hover::after {
   border-radius: 10px;
 }
 
+.card__apply a{
+  color: #2c2c2c;
+}
+
 
 .card-1 {
   background: url("img/toko-buah.png");
