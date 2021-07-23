@@ -683,18 +683,7 @@ textarea::-webkit-input-placeholder{
 
 
 /* Footer */
-/* footer{
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: #111;
-  height: auto;
-  width: 100vw;
-  font-family: "Open Sans";
-  padding-top: 40px;
-  color: #fff;
-} */
+
 .footer-content{
   display: flex;
   align-items: center;
@@ -759,5 +748,9 @@ textarea::-webkit-input-placeholder{
 .footer-bottom #powered:hover a{
   color: #2a8653;
   cursor: pointer;
+}
+
+.footer-content h3{
+  font-weight: 800;
 }
 
