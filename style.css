@@ -355,7 +355,7 @@ a:hover::after {
 #imgTap:checked ~ .inner-part .img{
   height: 370px;
   width: 850px;
-  z-index: 99;
+  /* z-index: 99; */
   margin-top: 10px;
   transition: .3s .2s ease-in;
 }
@@ -390,15 +390,15 @@ a:hover::after {
 #tap-4:checked ~ .inner-part .content-4{
   opacity: 1;
   margin-left: 0px;
-  z-index: 100;
+  /* z-index: 100;   */
   transition-delay: .3s;
 }
 .content span{
   display: block;
-  color: #7b7992;
+  color: #2C2E43;
   margin-bottom: 15px;
   font-size: 22px;
-  font-weight: 500
+  font-weight: 800
 }
 .content .title{
   font-size: 30px;
@@ -407,8 +407,9 @@ a:hover::after {
   margin-bottom: 20px;
 }
 .content .text{
-  color: #4e4a67;
+  color: #2C2E43;
   font-size: 19px;
+  font-weight: 800;
   margin-bottom: 30px;
   line-height: 1.5em;
   text-align: justify;
@@ -436,7 +437,7 @@ a:hover::after {
   bottom: -450px;
   left: 85%;
   transform: translateX(-50%);
-  z-index: 12;
+  /* z-index: 12; */
 }
 #imgTap:checked ~ .sliders{
   display: none;
