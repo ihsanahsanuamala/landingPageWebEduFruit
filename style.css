@@ -555,6 +555,7 @@ input[type="checkbox"]{
   width: calc(50% - 10px);
   height: 25px;
   padding: 12px;
+  color: #fff;
   font-size: 15px;
   border-radius: 5px;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
@@ -576,6 +577,7 @@ input[type="checkbox"]{
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
   opacity: 0.9;
+  color: #fff;
 }
 
 .text-box::-webkit-input-placeholder{
